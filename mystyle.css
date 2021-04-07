@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+
+.wrapper {
+    padding: 50px 20px;
+    background-color: hsl(0, 0%, 95%);
+    
+}
+
+#card-1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#card-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card-3 {
+    background-color: hsl(179, 100%, 13%)
+}
+
+.card {
+    padding: 20px ;
+}
+
+.card h1 {
+    font-size: 2rem;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    padding: 25px;
+}
+
+.card p {
+
+    padding: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.card button {
+
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    padding: 12px 20px;
+    border: 0;
+    margin: 15px 25px;
+    font-family:"Lexend Deca", sans-serif;
+    cursor: pointer;
+    border: 1px solid;
+    transition: all 0.4s;
+    outline: 0;
+
+}
+
+#card-1 button{
+    color:hsl(31, 77%, 52%) ;
+}
+#card-2 button{
+    color:  hsl(184, 100%, 22%);
+
+}
+#card-3 button{
+
+    color: hsl(179, 100%, 13%)
+    
+}
+
+#card-1 button:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color: hsl(0, 0%, 95%);
+}
+#card-2 button:hover{
+    background-color:  hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+
+}
+#card-3 button:hover{
+
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+
+
+@media only screen and (min-width: 376px) {
+
+    .wrapper{
+        display: flex;
+       
+    }
+
+}
